@@ -18,7 +18,7 @@ html {
 
   --radius: 0.5rem;
 
-  --shadow: 0 0 0 0.5rem #000;
+  --shadow: 0 0 0.5rem 0 #121212;
 }
 body {
   background: var(--color-bg-2);
@@ -27,14 +27,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-footer {
-  padding: var(--space-lg);
-  background: var(--color-bg-1);
-}
+
 main {
   flex: 1 1 auto;
-}
-header {
-  padding: var(--space-lg);
-  background: var(--color-bg-1);
 }
